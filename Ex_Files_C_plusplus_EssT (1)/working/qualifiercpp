@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int func()
+{
+     
+    static int x=10;
+    ++x;//11
+    return x;
+}
+
+int main()
+{
+    const int i=20;
+   // i++;
+    cout<<i;
+    cout<<func()<<endl;
+    cout<<func()<<endl;
+    cout<<func()<<endl;
+
+}
