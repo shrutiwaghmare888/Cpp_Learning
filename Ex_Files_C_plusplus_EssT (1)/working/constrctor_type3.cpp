@@ -26,6 +26,7 @@ cout<<"bank name "<<B_name;
 
 }
     
+//copy constructor
 
     Bank(const Bank &b)
     {
@@ -45,5 +46,6 @@ int main()
 {
 Bank b1 (440,"sbi");
 b1.display();
+//here b2 is another of that store the copy of b1 
 Bank b2(b1);
 }
