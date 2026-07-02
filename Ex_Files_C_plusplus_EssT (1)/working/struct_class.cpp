@@ -1,5 +1,3 @@
-// struct-class.cpp by Bill Weinman [bw.org]
-// updated 2022-06-02
 #include <format>
 #include <iostream>
 
